@@ -11,7 +11,7 @@ const LogIn = () => {
   const handleLogIn = () => {
     if (userLog.userName === "admin" && userLog.passWord === "admin") {
       setAthenticated(true);
-      Navigate("/AddUser");
+      Navigate("/");
     } else {
       setAthenticated(false);
       alert("useName or passWord is incorrect");

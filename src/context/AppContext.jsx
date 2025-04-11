@@ -104,6 +104,7 @@ const AppContext = ({ children }) => {
         logInOnChange,
         userLog,
         setAthenticated,
+        authenticated,
       }}
     >
       {children}

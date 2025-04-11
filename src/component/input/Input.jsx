@@ -70,7 +70,7 @@ const Input = () => {
         startIcon={<LogoutIcon />}
         onClick={() => {
           setAthenticated(false);
-          Navigate("/");
+          Navigate("/LogIn");
         }}
       >
         LogOut
